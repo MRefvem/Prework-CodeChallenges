@@ -1,0 +1,13 @@
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.exe
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.deps.json
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.runtimeconfig.json
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.runtimeconfig.dev.json
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.dll
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\bin\Debug\netcoreapp3.1\Prework-CodeChallenges.pdb
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.csprojAssemblyReference.cache
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.AssemblyInfoInputs.cache
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.AssemblyInfo.cs
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.dll
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.pdb
+C:\Users\mkref\Source\Repos\Prework-CodeChallenges\Prework-CodeChallenges\Prework-CodeChallenges\obj\Debug\netcoreapp3.1\Prework-CodeChallenges.genruntimeconfig.cache
