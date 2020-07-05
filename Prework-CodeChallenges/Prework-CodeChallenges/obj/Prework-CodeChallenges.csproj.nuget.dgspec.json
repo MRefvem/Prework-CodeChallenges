@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mkref\\source\\repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj": {}
+    "C:\\Users\\mkref\\Source\\Repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mkref\\source\\repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj": {
+    "C:\\Users\\mkref\\Source\\Repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mkref\\source\\repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj",
+        "projectUniqueName": "C:\\Users\\mkref\\Source\\Repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj",
         "projectName": "Prework-CodeChallenges",
-        "projectPath": "C:\\Users\\mkref\\source\\repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj",
+        "projectPath": "C:\\Users\\mkref\\Source\\Repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges.csproj",
         "packagesPath": "C:\\Users\\mkref\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mkref\\source\\repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\obj\\",
+        "outputPath": "C:\\Users\\mkref\\Source\\Repos\\Prework-CodeChallenges\\Prework-CodeChallenges\\Prework-CodeChallenges\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
