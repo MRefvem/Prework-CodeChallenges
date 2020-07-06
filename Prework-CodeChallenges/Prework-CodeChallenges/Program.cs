@@ -9,7 +9,7 @@ namespace Prework_CodeChallenges
         {
             Console.WriteLine(ArrayMaxResult());
             Console.WriteLine(LeapYearCalculator());
-            //Console.WriteLine(PerfectSequence(Array{2, 2} myArray));
+            Console.WriteLine(PerfectSequence(new[] { 2, 2, 0 }));
             //Console.WriteLine(SumOfRows());
         }
 
@@ -65,20 +65,23 @@ namespace Prework_CodeChallenges
             }
         }
 
-        private static string PerfectSequence(Array[,] myArray)
+        private static string PerfectSequence(int[] myArray)
         {
+            int sum = 0;
+            int product = 1;
             for (int i = 0; i < myArray.Length; i++)
             {
-                if (i + (i + 1) == i + (i + 1))
-                {
-                    return "Yes";
-                } 
-                else
-                {
-                    return "No";
-                }
+                sum = myArray[i] + sum;
+                product = myArray[i] * product;
             }
-            return "result";
+            if (sum == product)
+            {
+                return "The array is a perfect sequence";
+            } 
+            else
+            {
+                return "The array is not a perfect sequence";
+            }
         }
         //private static void SumOfRows(int[,] arr)
         //{
