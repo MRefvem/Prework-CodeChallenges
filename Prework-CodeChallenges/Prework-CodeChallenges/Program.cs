@@ -10,7 +10,7 @@ namespace Prework_CodeChallenges
             Console.WriteLine(ArrayMaxResult());
             Console.WriteLine(LeapYearCalculator());
             Console.WriteLine(PerfectSequence(new[] { 2, 2, 0 }));
-            //Console.WriteLine(SumOfRows());
+            Console.WriteLine(SumOfRows(new[,] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } }));
         }
 
         private static int ArrayMaxResult()
@@ -83,20 +83,22 @@ namespace Prework_CodeChallenges
                 return "The array is not a perfect sequence";
             }
         }
-        //private static void SumOfRows(int[,] arr)
-        //{
-        //    foreach (int row in arr)
-        //    int sum = 0;
-        //    {
-        //        for (int i = 0; i < arr.Length; i++)
-        //        {
-        //            for (int j = 0; j < arr.Length; j++)
-        //            {
-        //                sum = sum + arr[i, j];
-        //            }
-        //            Console.WriteLine($"Sum of the row {i} = {sum}");
-        //        }
-        //    }
-        //}
+        private static int[] SumOfRows(int[,] arr)
+        {
+            int rows = arr.GetLength(0);
+            int columns = arr.GetLength(1);
+            int[] rowSum = new int[rows];
+            for (int i = 0; i < rows; i++)
+            {
+                int sum = 0;
+                for (int j = 0; j < columns; j++)
+                {
+                    sum = sum + arr[i, j];
+                }
+                rowSum[i] = sum;
+            }
+            Console.WriteLine(string.Join(", ", rowSum));
+            return rowSum;
+        }
     }
 }
