@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace Prework_CodeChallenges
 {
@@ -7,6 +8,9 @@ namespace Prework_CodeChallenges
         static void Main(string[] args)
         {
             Console.WriteLine(ArrayMaxResult());
+            Console.WriteLine(LeapYearCalculator());
+            //Console.WriteLine(PerfectSequence(Array{2, 2} myArray));
+            //Console.WriteLine(SumOfRows());
         }
 
         private static int ArrayMaxResult()
@@ -33,5 +37,63 @@ namespace Prework_CodeChallenges
             }
             return counter;
         }
+
+        private static string LeapYearCalculator()
+        {
+            Console.WriteLine("Choose a year to see if it is a leap year");
+            int year = Convert.ToInt32(Console.ReadLine());
+            if (year % 4  == 0)
+            {   
+                if (year % 100 == 0 && year % 400 == 0)
+                {
+                    string result = $"{year} was a leap year";
+                    return result;
+                } else if (year % 100 == 0)
+                {
+                    string result = $"{year} was not a leap year";
+                    return result;
+                } else
+                {
+                    string result = $"{year} was a leap year";
+                    return result;
+                }
+            }
+            else
+            {
+                string result = $"{year} was not a leap year";
+                return result;
+            }
+        }
+
+        private static string PerfectSequence(Array[,] myArray)
+        {
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (i + (i + 1) == i + (i + 1))
+                {
+                    return "Yes";
+                } 
+                else
+                {
+                    return "No";
+                }
+            }
+            return "result";
+        }
+        //private static void SumOfRows(int[,] arr)
+        //{
+        //    foreach (int row in arr)
+        //    int sum = 0;
+        //    {
+        //        for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            for (int j = 0; j < arr.Length; j++)
+        //            {
+        //                sum = sum + arr[i, j];
+        //            }
+        //            Console.WriteLine($"Sum of the row {i} = {sum}");
+        //        }
+        //    }
+        //}
     }
 }
